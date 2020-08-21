@@ -1,0 +1,28 @@
+/* to select * everything */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* style for body */
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw; /* 100% view-port width */
+  height: 100vh; /* 100% view-port height */
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+}
+
+/* #video */
+/* we use hash # to select elements based on their id  */
+/* initially give a light grey background */
+#video {
+  background-color: #444;
+}
+
+/* #canvas */
+#canvas {
+  position: absolute; /* makes its position absolute to DOM */
+}

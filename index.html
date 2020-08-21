@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to our CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Face Detection JS</title>
+  </head>
+  <body>
+
+    <!-- place to put the live webcam video stream -->
+    <video id="video" width="600" height="450" autoplay="true"></video>
+
+    <!-- later we will use this #canvas to draw bounding box around our face -->
+    <canvas id="canvas"></canvas>
+
+    
+    <!-- IMPORTANT Links -->
+    <!-- Link to the face-api script file -->
+    <script defer src="./face-api.min.js"></script>
+    <!-- Link to our script.js file -->
+    <script defer src="script.js"></script>
+  </body>
+</html>
